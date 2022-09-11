@@ -75,7 +75,7 @@ This project was developed using the Python language in version 3.9.7, in the Li
 
 ## Multithreading Management
 
-After being started, the server was executed in an infinite loop to be always available to receive new connections from clients, and for each new one that started a new connection with the server, a new thread was created to manage requests from this client.
+After being started, the server was executed in an infinite loop to always be available to receive new connections from clients, and for each new client that started a new connection with the server, a new thread was created to manage requests from this client.
 
 ``` python
 while True:
