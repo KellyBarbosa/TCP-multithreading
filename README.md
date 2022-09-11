@@ -1,6 +1,6 @@
-# A tcp client-server multithreading
+# A TCP client-server multithreading
 
-> **University:** UFRB - Universidade Federal do Recôncavo da Bahia <br/>
+> **University:** Universidade Federal do Recôncavo da Bahia - UFRB <br/>
 > **Professor:** Ramon Pereira Lopes <br/>
 > **Student:** Gleice Kelly Barbosa Souza 
 
