@@ -1,4 +1,4 @@
-# A TCP client-server multithreading
+# A multithreading TCP server-client implementation
 
 > **University:** Universidade Federal do Recôncavo da Bahia - UFRB <br/>
 > **Professor:** Ramon Pereira Lopes <br/>
