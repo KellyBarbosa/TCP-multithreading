@@ -92,7 +92,7 @@ In the illustration above, three clients connect simultaneously to the server an
 
 ## Lock
 
-To lock the files, the *Semaphore* functionality provided by the threading library was used. Through this functionality, *acquire* was used to lock the file and *release* to unlock the file.
+The same file could be requested by several clients at the same time. In this way, to ensure that the file data is not corrupted, it was necessary to guarantee mutual exclusion. In this sense, to lock the files, the *Semaphore* functionality provided by the threading library was used. Through this functionality, *acquire* was used to lock the file and *release* to unlock the file. So, if a client requested a file that was currently being cached, this new client would have to wait until the file was unlocked.
 
 ```python
 lock = threading.Semaphore()
