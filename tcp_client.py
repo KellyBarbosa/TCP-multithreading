@@ -32,8 +32,6 @@ def get_file(conn):
         dir_save = os.getcwd()+"/client_data/"
         if len(sys.argv) == 5:
             dir_save = sys.argv[4]
-            if dir_save[len(dir_save) - 1] != '/':
-                dir_save += '/'
             dir_save = os.getcwd() if dir_save == '.' or dir_save == './' or dir_save == '/' else dir_save
 
             if not os.path.isdir(dir_save):
