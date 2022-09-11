@@ -86,6 +86,8 @@ while True:
 ```
 An example of how multithreading works in this project can be seen below.
 
+![2022-09-11-02-01-57](https://user-images.githubusercontent.com/40704890/189517151-1fa75ecc-02cf-43cf-b7c3-f66378a6ba68.gif)
+
 In the illustration above, three clients connect simultaneously to the server and they all make requests at the same time. It can also be seen that all of them have their requests met.
 
 ## Lock
