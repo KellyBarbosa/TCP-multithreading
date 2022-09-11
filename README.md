@@ -97,10 +97,10 @@ The same file could be requested by several clients at the same time. In this wa
 ```python
 lock = threading.Semaphore()
 
-# lock file
+# lock
 lock.acquire()
 
-# unlock file
+# unlock
 lock.release()
 ```
 
